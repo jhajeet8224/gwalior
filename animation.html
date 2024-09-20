@@ -1,0 +1,39 @@
+<head>
+    <style>
+        .container {
+            overflow: hidden;
+            height: 500px;
+            margin-top: 100px;
+        }
+        @keyframes slideIn {
+            from {
+                margin-left: 100%;
+                transform: rotate(360deg);
+            }
+            to {
+                margin-left: 0%;
+                transform:rotate(0deg);
+            }
+        }
+        img,h6,p{
+            width:40%;
+            height: 80%;
+            animation-name:slideIn;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            
+        }
+        
+         </style>
+         </head>
+         <body>
+       <div class="container">
+        <img src="img/micky.png" width="100" height="100">
+        <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Animi deserunt sapiente porro labore sed eligendi, 
+            nisi cum praesentium molestias sint nulla nostrum commodi 
+            ex aperiam aspernatur harum accusantium sit? Dolores</h6>
+    </div>
+    
+</body>
